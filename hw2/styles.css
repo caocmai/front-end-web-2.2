@@ -1,16 +1,9 @@
 body {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
     
 }
-
-body > div {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly
-
-}
-
 
 #hello {
     /* text-align: center; */
@@ -245,11 +238,11 @@ body > div {
 #hamburger4:hover>#h4-inner-2 {
     /* transform:  translate(10px, 22px) rotate(0); */
     width: 30px;
-        height: 30px;
-        background-color: transparent;
-        border: 5px solid white;
-        border-radius: 50%;
-        transform: translate(5px, 5px);
+    height: 30px;
+    background-color: transparent;
+    border: 5px solid white;
+    border-radius: 50%;
+    transform: translate(5px, 5px);
 }
 
 
@@ -257,3 +250,163 @@ body > div {
     width: 25px;
     transform:  translate(12px,22px) rotate(-45deg);
 }
+
+
+#kitten1 {
+
+    width: 90px; 
+    height: 110px; 
+    border: 1px solid black;
+    overflow: hidden; 
+    /* margin: 0 auto; */
+
+}
+
+#kitten1 img {
+    width: 100%; 
+    transition: 0.5s all ease-in-out; 
+}
+
+#kitten1:hover img {
+    transform: rotate(-20deg) scale(1.4);
+
+}
+
+.kitten2 {
+    position: relative;
+    width: 90px; 
+    height: 110px; 
+    border: 1px solid black;
+    overflow: hidden; 
+    z-index: 1;
+    /* margin: 0 auto; */
+
+}
+
+.kitten2>klabel {
+    /* font-size: 12px;
+    text-align: right;
+    color: white;
+    width: 80px;
+    height: 20px;
+    background-color: black;
+    z-index: 12; */
+
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    background-color: transparent;
+    bottom: 10px;
+    left: 50px;
+    font-size: 10px;
+    text-align: center;
+    text-justify: center;
+    line-height: 20px;
+    color: white;
+    background: blue;
+    /* text-align: center; */
+    /* line-height: 40px; */
+    /* left: 0; */
+    /* top: 0; */
+    border-left: 30px solid white;
+      border-top: 30px solid gray;
+      border-bottom: 30px solid grey;
+    transition: 1s;
+}
+
+.kitten2 img {
+    width: 100%; 
+    transition: 0.5s all ease-in-out;
+
+}
+
+.kitten2:hover img {
+
+    transform: rotate(-20deg) scale(1.4);
+
+}
+
+.kitten2:hover > klabel {
+    left: 20px;
+
+}
+
+
+.kitten3 {
+    position: relative;
+    width: 90px; 
+    height: 110px; 
+    border: 1px solid black;
+    overflow: hidden; 
+    z-index: 1;
+    /* margin: 0 auto; */
+
+}
+
+.kitten3>k-price {
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    width: 50px;
+    height: 50px;
+    background: red;
+    text-align: center;
+    text-justify: center;
+    line-height: 50px;
+    border-radius: 50%;
+    color: white;
+    transition: 1s;
+}
+
+.kitten3>klabel {
+    /* font-size: 12px;
+    text-align: right;
+    color: white;
+    width: 80px;
+    height: 20px;
+    background-color: black;
+    z-index: 12; */
+
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    background-color: transparent;
+    bottom: 10px;
+    left: 50px;
+    font-size: 10px;
+    text-align: center;
+    text-justify: center;
+    line-height: 20px;
+    color: white;
+    background: blue;
+    /* text-align: center; */
+    /* line-height: 40px; */
+    /* left: 0; */
+    /* top: 0; */
+    border-left: 5px solid white;
+      border-top: 3px solid gray;
+      border-bottom: 3px solid grey;
+    transition: 1s;
+}
+
+.kitten3 img {
+    width: 100%; 
+    transition: 0.5s all ease-in-out;
+
+}
+
+.kitten3:hover img {
+
+    transform: rotate(-20deg) scale(1.4);
+
+}
+
+.kitten3:hover > klabel {
+    left: 20px;
+
+}
+
+.kitten3:hover > k-price {
+    left: -7px;
+    top: -10px;
+} 
