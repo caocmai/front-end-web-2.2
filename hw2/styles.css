@@ -7,8 +7,10 @@
 
 .grid-display {
     display: grid;
-    grid-template-columns: repeat(3, 150px);
-    grid-gap: 80px;
+    grid-template-columns: repeat(3, 110px);
+    grid-gap: 10px;
+    grid-template-rows: repeat(3, 110px);
+    justify-content: center;
 }
 
 /* .grid {    
@@ -312,22 +314,19 @@ span {
     position: absolute;
     width: 70px;
     height: 20px;
-    background-color: transparent;
+    background: gray;
     bottom: 10px;
-    left: 50px;
+    left: 90px;
     font-size: 10px;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%, 10% 51%);
     text-align: center;
     text-justify: center;
     line-height: 20px;
     color: white;
-    background: blue;
     /* text-align: center; */
     /* line-height: 40px; */
     /* left: 0; */
     /* top: 0; */
-    border-left: 30px solid white;
-      border-top: 30px solid gray;
-      border-bottom: 30px solid grey;
     transition: 1s;
 }
 
@@ -389,20 +388,18 @@ span {
     height: 20px;
     background-color: transparent;
     bottom: 10px;
-    left: 50px;
+    left: 90px;
     font-size: 10px;
     text-align: center;
     text-justify: center;
     line-height: 20px;
     color: white;
-    background: blue;
+    background: gray;
     /* text-align: center; */
     /* line-height: 40px; */
     /* left: 0; */
     /* top: 0; */
-    border-left: 5px solid white;
-      border-top: 3px solid gray;
-      border-bottom: 3px solid grey;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%, 10% 51%);
     transition: 1s;
 }
 
