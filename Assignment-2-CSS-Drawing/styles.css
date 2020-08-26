@@ -48,12 +48,19 @@ h1 {
     transition: 300ms;
 }
 
+
 .mickey-left-pupil {
     width: 10px;
     height: 5px;
     background: black;
     border-radius: 5px/ 3px;
     transform: translate(36px, 38px) rotate(100deg);
+
+
+    animation: upAndDown 2s infinite
+
+    /* animation-name: "upAndDown";
+    animation-duration: 2s; */
 }
 
 
@@ -136,4 +143,11 @@ h1 {
 
 .mickey:hover .title {
     transform: translate(30px);
+}
+
+@keyframes upAndDown {
+    /* 0% {     transform: translate(36px, 38px) rotate(100deg);} */
+    50% { transform: translate(35px, 25px) rotate(94deg);}
+    /* 50% {transform: scale(1.2);} */
+    /* 100% { transform: translate(36px, 38px) rotate(100deg);} */
 }
