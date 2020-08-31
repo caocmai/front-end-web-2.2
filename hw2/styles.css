@@ -283,8 +283,9 @@ span {
 }
 
 #kitten1 img {
-    width: 100%; 
-    transition: 0.5s all ease-in-out; 
+    /* width: 100%;  */
+    transform: scale(1.1);
+    transition: 0.5s ; 
 }
 
 #kitten1:hover img {
@@ -329,10 +330,11 @@ span {
     /* left: 0; */
     /* top: 0; */
     transition: 1s;
+    transition-delay: 500ms;
 }
 
 .kitten2 img {
-    width: 100%; 
+    transform: scale(1.1);
     transition: 0.5s all ease-in-out;
 
 }
@@ -373,6 +375,7 @@ span {
     border-radius: 50%;
     color: white;
     transition: 1s;
+    transition-delay: 1.3s;
 }
 
 .kitten3>klabel {
@@ -402,10 +405,11 @@ span {
     /* top: 0; */
     clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%, 10% 51%);
     transition: 1s;
+    transition-delay: 500ms;
 }
 
 .kitten3 img {
-    width: 100%; 
+    transform: scale(1.1);
     transition: 0.5s all ease-in-out;
 
 }
