@@ -81,7 +81,7 @@ main {
     // height: 50px;
     @include box;
 /*     background: yellow; */
-    border: 4px solid black;
+    border: $boder-properties;
 }
 
 #inner-square {
