@@ -1,17 +1,10 @@
-/* body {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 20px;
-    
-} */
-
 .grid-display {
-    padding-top: 30px;
-    display: grid;
-    grid-template-columns: repeat(3, 110px);
-    grid-gap: 10px;
-    grid-template-rows: repeat(3, 110px);
-    justify-content: center;
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 110px);
+  grid-gap: 10px;
+  grid-template-rows: repeat(3, 110px);
+  justify-content: center;
 }
 
 /* .grid {    
@@ -22,411 +15,366 @@
     align-items: center;    
     margin: 2rem;
 } */
-
 #hello {
-    /* text-align: center; */
-    /* line-height: 30px; */
-    /* place-items: center; */
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50px;
-    height: 30px;
-    color: white;
-    border: 2px solid white;
-    border-radius: 10px;
-    background-color: blue;
-    transition: ease-in 200ms;
-    ;
+  /* text-align: center; */
+  /* line-height: 30px; */
+  /* place-items: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 30px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: blue;
+  transition: ease-in 200ms;
 }
 
 #hello:hover {
-    color: blue;
-    background-color: white;
-    border: 2px solid blue;
+  color: blue;
+  background-color: white;
+  border: 2px solid blue;
 }
 
 #hello2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
-    letter-spacing: 0px;
-    width: 50px;
-    height: 30px;
-    transition: ease-in 200ms;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  letter-spacing: 0px;
+  width: 50px;
+  height: 30px;
+  transition: ease-in 200ms;
 }
 
 #hello2:hover {
-    width: 80px;
-    border-top: 2px solid blue;
-    border-bottom: 2px solid blue;
-    letter-spacing: 4px;
-
+  width: 80px;
+  border-top: 2px solid blue;
+  border-bottom: 2px solid blue;
+  letter-spacing: 4px;
 }
 
 #hello3 {
-    /* text-align: center; */
-    /* line-height: 30px; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* place-items: center; */
-    width: 50px;
-    height: 30px;
-    color: blue;
-    border: 2px solid blue;
-    border-radius: 10px;
-    background-color: white;
-    transition: ease-in 100ms;
-    ;
+  /* text-align: center; */
+  /* line-height: 30px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* place-items: center; */
+  width: 50px;
+  height: 30px;
+  color: blue;
+  border: 2px solid blue;
+  border-radius: 10px;
+  background-color: white;
+  transition: ease-in 100ms;
 }
 
 #hello3:hover {
-    color: white;
-    background-color: blue;
-    border: 2px solid white;
+  color: white;
+  background-color: blue;
+  border: 2px solid white;
 }
 
 #hamburger2 {
-
-    width: 50px;
-    height: 50px;
-    background: white;
-    border: 1px solid black;
-
+  width: 50px;
+  height: 50px;
+  background: white;
+  border: 1px solid black;
 }
 
 #hamburger2 > div {
-    width: 30px;
-    height: 5px;
-    background-color: black;
-    position: absolute;
-
+  width: 30px;
+  height: 5px;
+  background-color: black;
+  position: absolute;
 }
 
-#hamburger2>div:nth-child(1){
-    transform: translate(10px, 10px) rotate(0);
-    transition: 200ms;
+#hamburger2 > div:nth-child(1) {
+  transform: translate(10px, 10px) rotate(0);
+  transition: 200ms;
 }
 
-#hamburger2>div:nth-child(2){
-    transform: translate(10px, 22px) rotate(0);
+#hamburger2 > div:nth-child(2) {
+  transform: translate(10px, 22px) rotate(0);
 }
 
-#hamburger2>div:nth-child(3){
-    transform: translate(10px, 33px) rotate(0);
-    transition: 200ms;
+#hamburger2 > div:nth-child(3) {
+  transform: translate(10px, 33px) rotate(0);
+  transition: 200ms;
 }
+
 #hamburger2:hover {
-    background-color: black;
-    
+  background-color: black;
 }
 
 #hamburger2:hover > div {
-    background-color: white;
+  background-color: white;
 }
 
-
-#hamburger2:hover>#h2-inner-1 {
-    transform:  translate(10px, 22px) rotate(45deg);
+#hamburger2:hover > #h2-inner-1 {
+  transform: translate(10px, 22px) rotate(45deg);
 }
 
-#hamburger2:hover>#h2-inner-2 {
-    opacity: 0;
-    transform:  scale(0,1) translate(10px, 22px) rotate(0);
+#hamburger2:hover > #h2-inner-2 {
+  opacity: 0;
+  transform: scale(0, 1) translate(10px, 22px) rotate(0);
 }
 
-
-#hamburger2:hover>#h2-inner-3 {
-    transform:  translate(10px,22px) rotate(-45deg);
+#hamburger2:hover > #h2-inner-3 {
+  transform: translate(10px, 22px) rotate(-45deg);
 }
-
 
 span {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 #hamburger3 {
-
-    width: 50px;
-    height: 50px;
-    background: white;
-    border: 1px solid black;
-
+  width: 50px;
+  height: 50px;
+  background: white;
+  border: 1px solid black;
 }
 
 #hamburger3 > div {
-    width: 30px;
-    height: 5px;
-    background-color: black;
-    position: absolute;
-
+  width: 30px;
+  height: 5px;
+  background-color: black;
+  position: absolute;
 }
 
-#hamburger3>div:nth-child(1){
-    transform: translate(10px, 10px) rotate(0);
-    transition: 200ms;
+#hamburger3 > div:nth-child(1) {
+  transform: translate(10px, 10px) rotate(0);
+  transition: 200ms;
 }
 
-#hamburger3>div:nth-child(2){
-    transform: translate(10px, 22px) rotate(0);
+#hamburger3 > div:nth-child(2) {
+  transform: translate(10px, 22px) rotate(0);
 }
 
-#hamburger3>div:nth-child(3){
-    transform: translate(10px, 33px) rotate(0);
-    transition: 200ms;
+#hamburger3 > div:nth-child(3) {
+  transform: translate(10px, 33px) rotate(0);
+  transition: 200ms;
 }
+
 #hamburger3:hover {
-    background-color: black;
-    
+  background-color: black;
 }
 
 #hamburger3:hover > div {
-    background-color: white;
+  background-color: white;
 }
 
-
-#hamburger3:hover>#h3-inner-1 {
-    transform:  translate(5px, 13px) rotate(-45deg);
+#hamburger3:hover > #h3-inner-1 {
+  transform: translate(5px, 13px) rotate(-45deg);
 }
 
-#hamburger3:hover>#h3-inner-2 {
-    transform:  translate(10px, 22px) rotate(0);
+#hamburger3:hover > #h3-inner-2 {
+  transform: translate(10px, 22px) rotate(0);
 }
 
-
-#hamburger3:hover>#h3-inner-3 {
-    transform:  translate(5px,30px) rotate(45deg);
+#hamburger3:hover > #h3-inner-3 {
+  transform: translate(5px, 30px) rotate(45deg);
 }
-
-
-
-
-
-
-
-
 
 #hamburger4 {
-
-    width: 50px;
-    height: 50px;
-    background: white;
-    border: 1px solid black;
-
+  width: 50px;
+  height: 50px;
+  background: white;
+  border: 1px solid black;
 }
 
 #hamburger4 > div {
-    width: 30px;
-    height: 5px;
-    background-color: black;
-    position: absolute;
-
+  width: 30px;
+  height: 5px;
+  background-color: black;
+  position: absolute;
 }
 
-#hamburger4>div:nth-child(1){
-    transform: translate(10px, 10px) rotate(0);
-    transition: 200ms;
+#hamburger4 > div:nth-child(1) {
+  transform: translate(10px, 10px) rotate(0);
+  transition: 200ms;
 }
 
-#hamburger4>div:nth-child(2){
-    transform: translate(10px, 22px) rotate(0);
+#hamburger4 > div:nth-child(2) {
+  transform: translate(10px, 22px) rotate(0);
 }
 
-#hamburger4>div:nth-child(3){
-    transform: translate(10px, 33px) rotate(0);
-    transition: 200ms;
+#hamburger4 > div:nth-child(3) {
+  transform: translate(10px, 33px) rotate(0);
+  transition: 200ms;
 }
+
 #hamburger4:hover {
-    background-color: black;
-    
+  background-color: black;
 }
 
 #hamburger4:hover > div {
-    background-color: white;
+  background-color: white;
 }
 
-
-#hamburger4:hover>#h4-inner-1 {
-    width: 25px;
-    transform:  translate(12px, 22px) rotate(45deg);
+#hamburger4:hover > #h4-inner-1 {
+  width: 25px;
+  transform: translate(12px, 22px) rotate(45deg);
 }
 
-#hamburger4:hover>#h4-inner-2 {
-    /* transform:  translate(10px, 22px) rotate(0); */
-    width: 30px;
-    height: 30px;
-    background-color: transparent;
-    border: 5px solid white;
-    border-radius: 50%;
-    transform: translate(5px, 5px);
+#hamburger4:hover > #h4-inner-2 {
+  /* transform:  translate(10px, 22px) rotate(0); */
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: 5px solid white;
+  border-radius: 50%;
+  transform: translate(5px, 5px);
 }
 
-
-#hamburger4:hover>#h4-inner-3 {
-    width: 25px;
-    transform:  translate(12px,22px) rotate(-45deg);
+#hamburger4:hover > #h4-inner-3 {
+  width: 25px;
+  transform: translate(12px, 22px) rotate(-45deg);
 }
-
 
 #kitten1 {
-
-    width: 90px; 
-    height: 110px; 
-    border: 1px solid black;
-    overflow: hidden; 
-    /* margin: 0 auto; */
-
+  width: 90px;
+  height: 110px;
+  border: 1px solid black;
+  overflow: hidden;
+  /* margin: 0 auto; */
 }
 
 #kitten1 img {
-    /* width: 100%;  */
-    transform: scale(1.1);
-    transition: 0.5s ; 
+  /* width: 100%;  */
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 
 #kitten1:hover img {
-    transform: rotate(-20deg) scale(1.4);
-
+  transform: rotate(-20deg) scale(1.4);
 }
 
 .kitten2 {
-    position: relative;
-    width: 90px; 
-    height: 110px; 
-    border: 1px solid black;
-    overflow: hidden; 
-    z-index: 1;
-    /* margin: 0 auto; */
-
+  position: relative;
+  width: 90px;
+  height: 110px;
+  border: 1px solid black;
+  overflow: hidden;
+  z-index: 1;
+  /* margin: 0 auto; */
 }
 
-.kitten2>klabel {
-    /* font-size: 12px;
-    text-align: right;
-    color: white;
-    width: 80px;
-    height: 20px;
-    background-color: black;
-    z-index: 12; */
-
-    position: absolute;
-    width: 70px;
-    height: 20px;
-    background: gray;
-    bottom: 10px;
-    left: 90px;
-    font-size: 10px;
-    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%, 10% 51%);
-    text-align: center;
-    text-justify: center;
-    line-height: 20px;
-    color: white;
-    /* text-align: center; */
-    /* line-height: 40px; */
-    /* left: 0; */
-    /* top: 0; */
-    transition: 1s;
-    transition-delay: 500ms;
+.kitten2 > klabel {
+  /* font-size: 12px;
+  text-align: right;
+  color: white;
+  width: 80px;
+  height: 20px;
+  background-color: black;
+  z-index: 12; */
+  position: absolute;
+  width: 70px;
+  height: 20px;
+  background: gray;
+  bottom: 10px;
+  left: 90px;
+  font-size: 10px;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%, 10% 51%);
+  text-align: center;
+  text-justify: center;
+  line-height: 20px;
+  color: white;
+  /* text-align: center; */
+  /* line-height: 40px; */
+  /* left: 0; */
+  /* top: 0; */
+  transition: 1s;
+  transition-delay: 500ms;
 }
 
 .kitten2 img {
-    transform: scale(1.1);
-    transition: 0.5s all ease-in-out;
-
+  transform: scale(1.1);
+  transition: 0.5s all ease-in-out;
 }
 
 .kitten2:hover img {
-
-    transform: rotate(-20deg) scale(1.4);
-
+  transform: rotate(-20deg) scale(1.4);
 }
 
 .kitten2:hover > klabel {
-    left: 20px;
-
+  left: 20px;
 }
-
 
 .kitten3 {
-    position: relative;
-    width: 90px; 
-    height: 110px; 
-    border: 1px solid black;
-    overflow: hidden; 
-    z-index: 1;
-    /* margin: 0 auto; */
-
+  position: relative;
+  width: 90px;
+  height: 110px;
+  border: 1px solid black;
+  overflow: hidden;
+  z-index: 1;
+  /* margin: 0 auto; */
 }
 
-.kitten3>k-price {
-    position: absolute;
-    top: -50px;
-    left: -50px;
-    width: 50px;
-    height: 50px;
-    background: red;
-    text-align: center;
-    text-justify: center;
-    line-height: 50px;
-    border-radius: 50%;
-    color: white;
-    transition: 1s;
-    transition-delay: 1.3s;
+.kitten3 > k-price {
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  width: 50px;
+  height: 50px;
+  background: red;
+  text-align: center;
+  text-justify: center;
+  line-height: 50px;
+  border-radius: 50%;
+  color: white;
+  transition: 1s;
+  transition-delay: 1.3s;
 }
 
-.kitten3>klabel {
-    /* font-size: 12px;
-    text-align: right;
-    color: white;
-    width: 80px;
-    height: 20px;
-    background-color: black;
-    z-index: 12; */
-
-    position: absolute;
-    width: 70px;
-    height: 20px;
-    background-color: transparent;
-    bottom: 10px;
-    left: 90px;
-    font-size: 10px;
-    text-align: center;
-    text-justify: center;
-    line-height: 20px;
-    color: white;
-    background: gray;
-    /* text-align: center; */
-    /* line-height: 40px; */
-    /* left: 0; */
-    /* top: 0; */
-    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%, 10% 51%);
-    transition: 1s;
-    transition-delay: 500ms;
+.kitten3 > klabel {
+  /* font-size: 12px;
+  text-align: right;
+  color: white;
+  width: 80px;
+  height: 20px;
+  background-color: black;
+  z-index: 12; */
+  position: absolute;
+  width: 70px;
+  height: 20px;
+  background-color: transparent;
+  bottom: 10px;
+  left: 90px;
+  font-size: 10px;
+  text-align: center;
+  text-justify: center;
+  line-height: 20px;
+  color: white;
+  background: gray;
+  /* text-align: center; */
+  /* line-height: 40px; */
+  /* left: 0; */
+  /* top: 0; */
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%, 10% 51%);
+  transition: 1s;
+  transition-delay: 500ms;
 }
 
 .kitten3 img {
-    transform: scale(1.1);
-    transition: 0.5s all ease-in-out;
-
+  transform: scale(1.1);
+  transition: 0.5s all ease-in-out;
 }
 
 .kitten3:hover img {
-
-    transform: rotate(-20deg) scale(1.4);
-
+  transform: rotate(-20deg) scale(1.4);
 }
 
 .kitten3:hover > klabel {
-    left: 20px;
-
+  left: 20px;
 }
 
 .kitten3:hover > k-price {
-    left: -7px;
-    top: -10px;
-} 
+  left: -7px;
+  top: -10px;
+}
 
+/*# sourceMappingURL=styles.css.map */
