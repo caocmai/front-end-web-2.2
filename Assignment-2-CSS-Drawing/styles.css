@@ -28,8 +28,8 @@ h1 {
 }
 
 .mickey-face {
-  height: 100px;
   width: 100px;
+  height: 100px;
   /* background-fill: black; */
   border: 1px solid black;
   border-radius: 50%;
