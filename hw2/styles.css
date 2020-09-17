@@ -50,6 +50,7 @@
 }
 
 #hello2:hover {
+  
   width: 80px;
   border-top: 2px solid blue;
   border-bottom: 2px solid blue;
