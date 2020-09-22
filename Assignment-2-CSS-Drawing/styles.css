@@ -125,10 +125,12 @@ h1 {
 .title {
   transform: translate(200px);
   transition: 2s;
+  /* background-color: red; */
+  width: 570px;
 }
 
 .mickey:hover .title {
-  transform: translate(30px);
+  transform: translate(-56px);
 }
 
 @keyframes upAndDown {
